@@ -17,7 +17,7 @@ document.getElementById("ttCost").innerHTML ="Total: $"+ (tnum*tcost);
 function theRest() {
 document.getElementById("bank").innerHTML ="$"+ (bafter)+ ".87";
 document.getElementById("addJacket").innerHTML = (bafter - jak)>0;
-document.getElementById("profPizza").innerHTML =((4*8)/2.5) -((8/4)/2.5)+" students, "+ ((8/4)/2.5)*8+ " slices left over";
+document.getElementById("profPizza").innerHTML =((4*8)/2.5) -((8/4)/2.5)+" students, "+ ((8/4)%2.5)+ " slices left over";
 document.getElementById("Monty").innerHTML = "$" + ((2*adult) + child + (3*drink))+"0";
 document.getElementById("tips").innerHTML = "$" + ((202.45+134.97+256.63+178.22)/4);
 }
