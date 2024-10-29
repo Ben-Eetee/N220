@@ -35,7 +35,7 @@ function choice1() {
             document.getElementById("answer2").innerHTML= "";
         }
         else if (input1==2 && input2==1){
-            document.getElementById("scenario").innerHTML= "ThepPunch connects, blowing your head off. You Lose!";
+            document.getElementById("scenario").innerHTML= "The Punch connects, blowing your head off. You Lose!";
             document.getElementById("answer1").innerHTML= "";
             document.getElementById("answer2").innerHTML= "";
         }
