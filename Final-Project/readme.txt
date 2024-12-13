@@ -1,7 +1,9 @@
 Final Project Outline
 
-github link :
-https://ben-eetee.github.io/N220/Final-Project
+github links :
+https://ben-eetee.github.io/N220/Final-Project/login.html
+https://github.com/Ben-Eetee/N220/tree/main/Final-Project
+
 
 Features:
 
