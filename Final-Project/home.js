@@ -10,7 +10,8 @@ document.getElementById("welUse").innerHTML= "Welcome, "+localStorage.username;
 let taskIdCounter = 0;
 
 function logout(){
-    localStorage.removeItem(username)
+    localStorage.removeItem(username);
+    window.location.href="";
 }
 
 // Task constructor function
