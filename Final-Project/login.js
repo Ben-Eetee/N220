@@ -48,7 +48,7 @@ function validatepassword() {
         err.innerHTML ="Error: Password must contain at least one special character";
     }
     else {
-        localStorage.setItem(username, use);
+        localStorage.setItem(username, document.getElementById("username").value);
         localStorage.getItem(username);
         window.location.href= "https://ben-eetee.github.io/N220/Final-Project/home.html";
     }
