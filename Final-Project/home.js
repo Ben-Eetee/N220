@@ -11,7 +11,7 @@ let taskIdCounter = 0;
 
 function logout(){
     localStorage.removeItem(username);
-    window.location.href="";
+    window.location.href="https://ben-eetee.github.io/N220/Final-Project/login.html";
 }
 
 // Task constructor function
