@@ -45,7 +45,7 @@ function validatepassword() {
         err.innerHTML ="Error: Password must contain at least capital letter";
     }
     else if(consp==0){
-        err.innerHTML ="Error: Password must contain at least special character";
+        err.innerHTML ="Error: Password must contain at least one special character";
     }
     else {
         localStorage.setItem(username, use);
