@@ -10,7 +10,7 @@ document.getElementById("welUse").innerHTML= "Welcome, "+localStorage.getItem("u
 let taskIdCounter = 0;
 
 function logout(){
-    localStorage.removeItem(username);
+    localStorage.removeItem("username");
     window.location.href="https://ben-eetee.github.io/N220/Final-Project/login.html";
 }
 
