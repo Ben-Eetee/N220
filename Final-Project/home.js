@@ -5,8 +5,8 @@ titlebackground.style.minHeight = "90px";
 logbutton.style.float = "right";
 const fullbackground = document.getElementById("backgroundcolor");
 fullbackground.style.backgroundColor ="lightgreen";
-
-document.getElementById("welUse").innerHTML= "Welcome, "+localStorage.getItem("username");
+const storedValue = sessionStorage.getItem('username');
+document.getElementById("welUse").innerHTML= "Welcome, "+storedValue;
 let taskIdCounter = 0;
 
 function logout(){
