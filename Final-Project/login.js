@@ -49,6 +49,7 @@ function validatepassword() {
     }
     else {
         localStorage.setItem(username, use);
+        localStorage.getItem(username);
         window.location.href= "https://ben-eetee.github.io/N220/Final-Project/home.html";
     }
 }

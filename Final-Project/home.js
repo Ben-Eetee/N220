@@ -6,7 +6,7 @@ logbutton.style.float = "right";
 const fullbackground = document.getElementById("backgroundcolor");
 fullbackground.style.backgroundColor ="lightgreen";
 
-document.getElementById("welUse").innerHTML= "Welcome, "+localStorage.username;
+document.getElementById("welUse").innerHTML= "Welcome, "+localStorage.getItem(username);
 let taskIdCounter = 0;
 
 function logout(){
